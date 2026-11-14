@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://mihirkavi.github.io/open-nutrition-transaction/">
+  <a href="https://receiptcal.github.io/open-nutrition-transaction/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset=".github/assets/banner-dark.png">
       <img alt="OpenNutri: nutrition should travel with your food. A synthetic Example Market receipt for two Greek yogurts becomes a valid OpenNutri purchase event that can go to a nutrition app, a dietitian or research, with your permission." src=".github/assets/banner-light.png" width="100%">
@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <a href="https://mihirkavi.github.io/open-nutrition-transaction/"><strong>Website</strong></a> ·
+  <a href="https://receiptcal.github.io/open-nutrition-transaction/"><strong>Website</strong></a> ·
   <a href="spec/data.md"><strong>Data spec</strong></a> ·
   <a href="spec/exchange.md"><strong>Exchange spec</strong></a> ·
   <a href="schema/event.schema.json"><strong>JSON Schema</strong></a> ·
@@ -25,11 +25,11 @@
   <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-123f34?style=flat-square"></a>
   <img alt="Open standard: V1 foundation" src="https://img.shields.io/badge/open%20standard-V1%20foundation-2f8f67?style=flat-square">
   <img alt="Status: early, no production adopters yet" src="https://img.shields.io/badge/status-early-f0a63a?style=flat-square">
-  <a href="https://github.com/mihirkavi/open-nutrition-transaction/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mihirkavi/open-nutrition-transaction/ci.yml?branch=main&style=flat-square&color=123f34&label=CI"></a>
+  <a href="https://github.com/ReceiptCal/open-nutrition-transaction/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/ReceiptCal/open-nutrition-transaction/ci.yml?branch=main&style=flat-square&color=123f34&label=CI"></a>
 </p>
 
 <p align="center">
-  <a href="https://mihirkavi.github.io/open-nutrition-transaction/"><img alt="The OpenNutri website on desktop and phone: the headline 'Nutrition should travel with the food you buy', an example receipt for Greek yogurt with calories, protein and carbs, and the matching OpenNutri event marked valid" src=".github/assets/hero.jpg" width="100%"></a>
+  <a href="https://receiptcal.github.io/open-nutrition-transaction/"><img alt="The OpenNutri website on desktop and phone: the headline 'Nutrition should travel with the food you buy', an example receipt for Greek yogurt with calories, protein and carbs, and the matching OpenNutri event marked valid" src=".github/assets/hero.jpg" width="100%"></a>
 </p>
 
 ## Why OpenNutri
@@ -90,7 +90,7 @@ food provider ─▶ OpenNutri event you authorize ─▶ the app you choose
   </tr>
 </table>
 
-<sub>Screenshots of the live <a href="https://mihirkavi.github.io/open-nutrition-transaction/">OpenNutri website</a>, captured on 26 October 2026. All example data is synthetic.</sub>
+<sub>Screenshots of the live <a href="https://receiptcal.github.io/open-nutrition-transaction/">OpenNutri website</a>, captured on 26 October 2026. All example data is synthetic.</sub>
 
 ## What is in the box
 
@@ -112,7 +112,7 @@ food provider ─▶ OpenNutri event you authorize ─▶ the app you choose
 Requires Node.js 22 or newer.
 
 ```bash
-git clone https://github.com/mihirkavi/open-nutrition-transaction && cd open-nutrition-transaction
+git clone https://github.com/ReceiptCal/open-nutrition-transaction && cd open-nutrition-transaction
 npm install
 npm test        # builds the validator and runs the contract and site tests
 npm run demo    # starts the reference server on http://127.0.0.1:8787
